@@ -4,3 +4,15 @@
 egs.py
 *.log
 __pycache__/
+data/2spk/dev/mix.scp
+data/2spk/dev/spk1.scp
+data/2spk/dev/spk2.scp
+data/2spk/train/mix.scp
+data/2spk/train/spk1.scp
+data/2spk/train/spk2.scp
+data/2spk/tt/mix.scp
+data/2spk/tt/spk1.scp
+data/2spk/tt/spk2.scp
+data/tune/mix.scp
+data/tune/spk1.scp
+data/tune/spk2.scp
