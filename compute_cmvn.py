@@ -45,9 +45,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Command to compute global cmvn stats")
     parser.add_argument(
-        "wave_scp", type=str, help="Location of mixture wave scripts")
+        "--wave_scp", type=str, default="./data/2spk/train/mix.scp", help="Location of mixture wave scripts")
     parser.add_argument(
-        "cmvn_dst", type=str, help="Location to dump cmvn stats")
+        "--cmvn_dst", type=str, default="data/cmvn.dict", help="Location to dump cmvn stats")
     parser.add_argument(
         "--frame-shift",
         type=int,
